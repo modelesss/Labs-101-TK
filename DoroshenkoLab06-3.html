@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Україна</title>
+    <style>
+        .popup {
+            position: absolute;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid black;
+            display: none;
+        }
+        img {
+            position: relative;
+        }
+        img:hover + .popup {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Україна</h1>
+
+<div style="float: left; margin-right: 20px;">
+    <img src="WestUkr.png" width="263" height="200" border="1" usemap="#west-ukraine-map">
+    <div class="popup" style="top: 100px; left: 100px;">Тут може бути текст про західну частину України.</div>
+
+    <map name="west-ukraine-map">
+        <area shape="rect" coords="0,0,263,200" href="#" alt="Західна Україна" title="Західна частина України славиться своєю багатошаровою культурою та неповторною архітектурою історичних міст, таких як Львів та Івано-Франківськ.">
+    </map>
+</div>
+
+<div style="float: left;">
+    <img src="EastUkr.png" width="263" height="200" border="1" usemap="#east-ukraine-map">
+    <div class="popup" style="top: 100px; left: 100px;">Тут може бути текст про східну частину України.</div>
+
+    <map name="east-ukraine-map">
+        <area shape="rect" coords="0,0,263,200" href="#" alt="Східна Україна" title="У той же час, східна частина України відома своїми широкими степами та родючими землями, які сприяли розвитку сільського господарства та промисловості.
+
+
+
+
+
+        ">
+    </map>
+</div>
+
+</body>
+</html>
