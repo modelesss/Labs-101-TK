@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Анкета</title>
+</head>
+<body>
+
+<table border="1">
+    <caption style="color: red;">Анкета</caption>
+    <tr>
+        <th>Номер</th>
+        <th>Пункт анкети</th>
+        <th>Відповідь</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Прізвище</td>
+        <td><input type="text" name="surname" required></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Ім'я, по батькові</td>
+        <td><input type="text" name="name_fathername" required></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Число і рік народження</td>
+        <td><input type="text" name="birthdate" required></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Домашня адреса</td>
+        <td><input type="text" name="address" required></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Місце навчання (роботи)</td>
+        <td><input type="text" name="work_or_study_place" required></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Домашній робочий телефон</td>
+        <td><input type="tel" name="home_work_phone"></td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>E-mail</td>
+        <td><input type="email" name="email" required></td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Область наукових інтересів</td>
+        <td>
+            <ol>
+                <li><input type="text" name="research_interest_1"></li>
+                <li><input type="text" name="research_interest_2"></li>
+                <li><input type="text" name="research_interest_3"></li>
+                <li><input type="text" name="research_interest_4"></li>
+                <li><input type="text" name="research_interest_5"></li>
+                <li><input type="text" name="research_interest_6"></li>
+            </ol>
+        </td>
+    </tr>
+</table>
+
+<input type="submit" value="Надіслати дані та перейти до 2 етапу реєстрації">
+<input type="reset" value="Відмінити введення">
+
+</body>
+</html>
