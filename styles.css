@@ -1,40 +1,36 @@
-/* Стильовий файл для сайту */
-
-/* Загальні стилі */
 body {
-    background-image: url('background.jpg'); /* Фонове зображення сторінки */
-    color: #333; /* Колір тексту */
-    font-family: Arial, sans-serif; /* Шрифт */
-    margin: 0; /* Зовнішній відступ */
-    padding: 20px; /* Внутрішній відступ */
+    background-image: url('background.jpg');
+    color: #333; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 20px; 
 }
 
 p {
-    text-align: justify; /* Вирівнювання тексту абзаців по ширині */
-    margin-left: 20px; /* Відстань ліворуч від тексту до границь вікна */
-    margin-right: 20px; /* Відстань праворуч від тексту до границь вікна */
-    font-style: italic; /* Стиль тексту - курсив */
-    background-color: white; /* Білий фон */
-    padding: 10px; /* Внутрішній відступ */
+    text-align: justify; 
+    margin-left: 20px;
+    margin-right: 20px; 
+    font-style: italic; 
+    background-color: white; 
+    padding: 10px;
 }
 
 /* Стилі для заголовків */
 h1 {
-    font-weight: bold; /* Жирний стиль */
-    text-align: center; /* Вирівнювання по центру */
-    color: #FF0000; /* Червоний колір */
-    font-style: normal; /* Нормальний стиль */
-    background-color: white; /* Білий фон */
-    padding: 10px; /* Внутрішній відступ */
+    font-weight: bold;
+    text-align: center; 
+    color: #FF0000; 
+    font-style: normal; 
+    background-color: white;
+    padding: 10px; 
 }
 
-/* Стилі для посилань */
 a:link {
-    color: blue; /* Колір не відвіданих посилань */
+    color: blue; 
 }
 
 a:visited {
-    color: purple; /* Колір відвіданих посилань */
+    color: purple;
 }
 
 a:hover {
